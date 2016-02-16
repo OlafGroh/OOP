@@ -1,4 +1,4 @@
-![Mono Logo1](https://cloud.githubusercontent.com/assets/17234421/13094560/b6bdc1fc-d50b-11e5-80c8-a13d0b068465.png)
+![Mono Logo1](https://github.com/OlafGroh/OOP/blob/master/C%23/images/logo.png)
 ![Mono Logo2](https://github.com/OlafGroh/OOP/blob/master/C%23/images/logo2.png)
 
 
