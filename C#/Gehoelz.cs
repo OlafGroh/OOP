@@ -11,9 +11,9 @@ public abstract class Gehoelz {
 	/* Konstruktor:Alle Parameter in den Attrubuten der Klasse speichern */
 	/* Constructor:store all parameters in the attributes of the class */
 	public Gehoelz(String art, int pflanzjahr, float preis) {
-		this.art		= art;
-		this.pflanzjahr	= pflanzjahr;
-		this.preis		= preis;
+		this.art        = art;
+		this.pflanzjahr = pflanzjahr;
+		this.preis      = preis;
 	}
 
 	/* Get- und Set Methoden für alle Attribute der Klasse */
