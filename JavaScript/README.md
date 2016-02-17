@@ -20,6 +20,6 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true
 
 
 __Status/state__  
-nicht Komplett/incomplete
+nicht Komplett/incomplete  
 ->Klasse Gaertnerei nicht implementiert und getestet / not implemented and tested class Gaertnerei  
 ->sicheres Casten der Objekte fehlt / safe cast of objects not implemented  

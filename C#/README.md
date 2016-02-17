@@ -22,6 +22,6 @@ Liane: Art:  Gemeiner Efeu Pflanzjahr: 1990 Preis: 15
 Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2,5 ist Giftig: True  
 
 __Status/state__  
-nicht Komplett/incomplete
+nicht Komplett/incomplete  
 ->Klasse Gaertnerei nicht implementiert und getestet / not implemented and tested class Gaertnerei  
 ->sicheres Casten der Objekte fehlt / safe cast of objects not implemented  
