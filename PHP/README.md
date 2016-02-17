@@ -1,4 +1,4 @@
-![Java Logo](https://github.com/OlafGroh/OOP/blob/master/PHP/images/logo.png)
+![Java Logo](https://github.com/OlafGroh/OOP/blob/master/images/php_logo.png)
 
 __Betriebssystem/operating system__  
 Linux x86_64
