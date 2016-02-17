@@ -1,6 +1,5 @@
 ![Mono Logo](https://github.com/OlafGroh/OOP/blob/master/images/logos/csharp_logo.png)
 
-
 __Betriebssystem/operating system__  
 Linux x86_64
 
