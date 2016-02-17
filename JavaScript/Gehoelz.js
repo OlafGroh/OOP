@@ -1,56 +1,49 @@
-
 /*
- * Konstruktormethode um alle Attribute zu initialisieren
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
  */
 function Gehoelz(art, pflanzjahr, preis) {
-    
+
 	if (this.constructor === Gehoelz) {
         throw new Error("Fehler abstract class!");
       }
-    
-	/*
-	 * Alle übergebene Parameter in die Attribute der Klasse speichern,
-	 * da diese sonst nach dem Konstruktor nicht mehr vorhanden sind!
-	 */
-	var art		= art;
-	var pflanzjahr	= pflanzjahr;
-	var preis		= preis;
-	
-	/*
-	 * Get- und Set Methoden für alle Attribute der Klasse
-	 */
-	this.getArt = function() {
-		return art;
-	}
 
-	this.setArt = function(art) {
-		this.art = art;
-	}
+  /* Attribute der abstrakten Basisklasse */
+  /* Attriubutes of the abstract base class */
+  var art		= art;
+  var pflanzjahr	= pflanzjahr;
+  var preis		= preis;
 
-	this.getPflanzjahr = function() {
-		return pflanzjahr;
-	}
+  /* Get- und Set Methoden für alle Attribute der Klasse */
+  /* Get and set methods for all attrubutes of the class */
+  this.getArt = function() {
+    return art;
+  }
 
-	this.setPflanzjahr = function(pflanzjahr) {
-		this.pflanzjahr = pflanzjahr;
-	}
+  this.setArt = function(art) {
+    this.art = art;
+  }
 
-	this.getPreis = function() {
-		return preis;
-	}
+  this.getPflanzjahr = function() {
+    return pflanzjahr;
+  }
 
-	this.setPreis = function(preis) {
-		this.preis = preis;
-	}
+  this.setPflanzjahr = function(pflanzjahr) {
+    this.pflanzjahr = pflanzjahr;
+  }
 
-	/*
-	 * Methode getInfo, diese muss von jeder (ausser Liane) überschriben werden,
-	 * wenn die Methode gleich lautet und die gleichen Parameter übernimmt und dennoch
-	 * in der ableitenden Klasse eine andere Funktionalität aufweist, dann ist das 
-	 * Polymorph!!
-	 */
-	this.getInfo = function() {
-		return "Art: ".concat( art, " Pflanzjahr: ", pflanzjahr, " Preis: ", preis);
-	}	
-	
+  this.getPreis = function() {
+    return preis;
+  }
+
+  this.setPreis = function(preis) {
+    this.preis = preis;
+  }
+
+  /* Methode wird in allen Subklassen (ausser Liane) überschrieben */
+  /* Method are overwritten in all (not in Liane) sub classes */
+  this.getInfo = function() {
+    return "Art: ".concat( art, " Pflanzjahr: ", pflanzjahr, " Preis: ", preis);
+  }
 }

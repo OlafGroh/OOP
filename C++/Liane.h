@@ -7,12 +7,11 @@
  * version: 1.0
  */
 class Liane : public Gehoelz {
-    /* Keine zusätzlichen Attrubute */
-	/* No additional attributes */
+    /* Keine zusätzlichen Attribute */
+    /* No additional attributes */
 
 public:
-	Liane(std::string art, int pflanzjahr, float preis);
-	void abstract();
-
+    Liane(std::string art, int pflanzjahr, float preis);
+    void abstract();
 };
 #endif

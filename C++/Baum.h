@@ -10,15 +10,15 @@ class Baum : public Gehoelz {
 
 private:
     /* Attribute der Klasse */
-    /* Attriubutes of the class */
-	int maxHoehe;
+    /* Attributes of the class */
+    int maxHoehe;
 
 public:
 
-	Baum(std::string art, int pflanzjahr, float preis, int maxHoehe);
-	int getMaxHoehe();
+    Baum(std::string art, int pflanzjahr, float preis, int maxHoehe);
+    int getMaxHoehe();
     void setMaxHoehe(int maxHoehe);
-	std::string getInfo();
-	void abstract();
+    std::string getInfo();
+    void abstract();
 };
 #endif

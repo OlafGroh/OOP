@@ -1,23 +1,20 @@
 /*
- * Konstruktormethode um alle Attribute zu initialisieren
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
  */
 function Liane(art, pflanzjahr, preis) {
-	/*
-	 * Aufrufen den Konstruktors der Basisklasse, hier also von Gehoelz!!
-	 */
-	Gehoelz.call(this, art, pflanzjahr, preis);
-    
-	/*
-	 * Da Liane keine zusätzlichen Attribute enthält muss hier auch nichts
-	 * weiter getan werden!
-	 */
+  /* Keine zusätzlichen Attrubute */
+  /* No additional attributes */
 
-	/*
-	 * keine Get- und Set Methoden, da keine zusätzlichen Attribute vorhanden sind!
-	 */
-	
-	/*
-	 * kein Überschreiben von getInfo, da die Ausgabe nicht erwitert werden muss!
-	 */
-	
+  /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+  /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
+  Gehoelz.call(this, art, pflanzjahr, preis);
+
+  /* Keine zusätzlichen Get- und Set Methoden */
+  /* No additional get and set methodes */
+
+  /* Kein Überschreiben der Methoden getInfo() */
+  /* No overriding the methods getInfo() */
+
 }

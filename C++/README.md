@@ -25,4 +25,5 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: 1
 
 
 __Status/state__  
-Komplett/complete
+nicht Komplett/incomplete
+->sicheres Casten der Objekte fehlt / safe cast of objects not implemented  

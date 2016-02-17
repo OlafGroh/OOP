@@ -10,23 +10,24 @@
 class Gehoelz {
 private:
     /* Attribute der abstrakten Basisklasse */
-	/* Attriubutes of the abstract base class */
+    /* Attributes of the abstract base class */
     std::string	art;
-	int			pflanzjahr;
-	float		preis;
+    int			pflanzjahr;
+    float		preis;
 
 
 public:
-	Gehoelz(std::string art, int pflanzjahr, float preis);
-	std::string& getArt();
-	void setArt(const std::string& art);
-	int getPflanzjahr();
-	void setPflanzjahr(int pflanzjahr);
-	float getPreis();
-	void setPreis(float preis);
-	virtual std::string getInfo();
+    Gehoelz(std::string art, int pflanzjahr, float preis);
+    std::string& getArt();
+    void setArt(const std::string& art);
+    int getPflanzjahr();
+    void setPflanzjahr(int pflanzjahr);
+    float getPreis();
+    void setPreis(float preis);
+    virtual std::string getInfo();
+
     /* Spezieller Trick um die Klasse als abstrakt zu  deklarieren */
     /* Spezial trick to become the class abstract */
-	virtual void abstract()=0;
+    virtual void abstract()=0;
 };
 #endif

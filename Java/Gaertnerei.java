@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Gaertnerei {
 
   /* Attribute der abstrakten Basisklasse */
-	/* Attriubutes of the abstract base class */
+	/* Attributes of the abstract base class */
 	private ArrayList<Gehoelz> pflanzen;
 
   /* Konstruktor:Alle Parameter in den Attributen der Klasse speichern */

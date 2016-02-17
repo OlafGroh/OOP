@@ -10,15 +10,15 @@
 class Strauch : public Gehoelz {
 private:
     /* Attribute der Klasse */
-    /* Attriubutes of the class */
-	bool istGiftig;
+    /* Attributes of the class */
+    bool istGiftig;
 
 public:
 
-	Strauch(std::string art, int pflanzjahr, float preis, bool istGiftig);
+    Strauch(std::string art, int pflanzjahr, float preis, bool istGiftig);
     bool getIstGiftig();
     void setIstGiftig(bool istGiftig);
-	std::string getInfo();
-	void abstract();
+    std::string getInfo();
+    void abstract();
 };
 #endif

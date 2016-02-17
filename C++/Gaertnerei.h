@@ -11,12 +11,12 @@
 class Gaertnerei {
 
 private:
-	std::vector<Gehoelz*> pflanzen;
+    std::vector<Gehoelz*> pflanzen;
 
 public:
-	Gaertnerei();
-	void einkaufen(Gehoelz *g);
-	Gehoelz* verkaufen(std::string art, int pflanzjahr);
-	std::vector<Gehoelz*> getWoodByLimit(float preis);
+    Gaertnerei();
+    void einkaufen(Gehoelz *g);
+    Gehoelz* verkaufen(std::string art, int pflanzjahr);
+    std::vector<Gehoelz*> getWoodByLimit(float preis);
 };
 #endif

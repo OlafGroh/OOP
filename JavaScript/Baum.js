@@ -1,35 +1,30 @@
 /*
- * Konstruktormethode um alle Attribute zu initialisieren
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
  */
+
+ /* Konstruktorfunktion:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+ /* Constructorfunction:store all parameters in the attributes of the base class, call the constructor of the base class */
 function Baum(art, pflanzjahr, preis, maxHoehe) {
-	/*
-	 * Aufrufen den Konstruktors der Basisklasse, hier also von Gehoelz!!
-	 */
-	Gehoelz.call(this, art, pflanzjahr, preis);
+  Gehoelz.call(this, art, pflanzjahr, preis);
 
-	var maxHoehe		= maxHoehe;
-	
-	/*
-	 * Implementierung der Elterklasse "merken"
-	 */
-	var parentgetInfo = this.getInfo;
-	
-	/*
-	 * Get- und Set Methoden für alle Attribute der Klasse
-	 */
-	this.getMaxHoehe = function() {
-		return maxHoehe;
-	}
+  var maxHoehe		= maxHoehe;
+  var parentgetInfo = this.getInfo;
 
-	this.setMaxHoehe = function(maxHoehe) {
-		this.maxHoehe = maxHoehe;
-	}
+  /* Get- und Set Methoden für alle Attribute der Klasse */
+  /* Get and set methods for all attrubutes of the class */
+  this.getMaxHoehe = function() {
+    return maxHoehe;
+  }
 
-	/*
-	 * Methode getInfo wird überschrieben, die Implementierung der Basisklasse wird aufgerufen
-	 * und das zusätzliche Attribut angehängt
-	 */
-	this.getInfo = function() {
-		return parentgetInfo.call(this).concat(" Maxihoehe: ",  maxHoehe);
-	}		
+  this.setMaxHoehe = function(maxHoehe) {
+    this.maxHoehe = maxHoehe;
+  }
+
+  /* Polymorphe Methode */
+  /* Polymorphic method */
+  this.getInfo = function() {
+    return parentgetInfo.call(this).concat(" Maxihoehe: ",  maxHoehe);
+  }
 }

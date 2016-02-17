@@ -8,29 +8,30 @@
      * version: 1.0
      */
 
-     /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+     /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
      /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
-	Baum::Baum(std::string art, int pflanzjahr, float preis, int maxHoehe) : Gehoelz(art, pflanzjahr, preis) {
-		this->maxHoehe = maxHoehe;
+     Baum::Baum(std::string art, int pflanzjahr, float preis, int maxHoehe) : Gehoelz(art, pflanzjahr, preis) {
+         this->maxHoehe = maxHoehe;
 	}
 
     /* Get- und Set Methoden für alle Attribute der Klasse */
-	/* Get and set methods for all attrubutes of the class */
-	int Baum::getMaxHoehe() {
-		return this->maxHoehe;
-	}
+    /* Get and set methods for all attrubutes of the class */
+    int Baum::getMaxHoehe() {
+        return this->maxHoehe;
+    }
 
-	void Baum::setMaxHoehe(int maxHoehe) {
-		this->maxHoehe = maxHoehe;
-	}
+    void Baum::setMaxHoehe(int maxHoehe) {
+        this->maxHoehe = maxHoehe;
+    }
 
-    /* Polymorphe Methode  */
-	/* Polymorphic method */
-	std::string Baum::getInfo() {
-		std::ostringstream output;
-		output << Gehoelz::getInfo() << " Maxhoehe: " << this->maxHoehe;
-		return output.str();
-	}
+    /* Polymorphe Methode */
+    /* Polymorphic method */
+    std::string Baum::getInfo() {
+        std::ostringstream output;
+        output << Gehoelz::getInfo() << " Maxhoehe: " << this->maxHoehe;
+        return output.str();
+    }
+
     /* Implementierung der Markermethode */
     /* Implemetation of the mark method */
-	void Baum::abstract(){}
+    void Baum::abstract(){}
