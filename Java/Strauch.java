@@ -1,42 +1,33 @@
-package ga1_aufgabe_2_1;
-
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public class Strauch extends Gehoelz{
-	
+
+  /* Attribute der Klasse */
+	/* Attriubutes of the class */
 	private boolean istGiftig;
 
-	/*
-	 * Konstruktor um alle Attribute zu initialisieren
-	 */
 	public Strauch(String art, int pflanzjahr, float preis, boolean istGiftig) {
-		/*
-		 * Aufrufen den Kinstruktors der Basisklasse, hier also von Gehoelz!!
-		 */
 		super(art, pflanzjahr, preis);
-
-		/*
-		 * Alle übergebene Parameter in die Attribute der Klasse speichern,
-		 * da diese sonst nach dem Konstruktor nicht mehr vorhanden sind!
-		 */
 		this.istGiftig = istGiftig;
 	}
 
-	/*
-	 * Get- und Set Methoden für alle Attribute der Klasse
-	 */
-	public boolean isIstGiftig() {
-		return istGiftig;
+  /* Get- und Set Methoden für alle Attribute der Klasse */
+  /* Get and set methods for all attrubutes of the class */
+  public boolean getIstGiftig() {
+		return this.istGiftig;
 	}
 
 	public void setIstGiftig(boolean istGiftig) {
 		this.istGiftig = istGiftig;
 	}
 
-	/*
-	 * Methode getInfo wird überschrieben, die Implementierung der Basisklasse wird aufgerufen
-	 * und das zusätzliche Attribut angehängt
-	 */
+  /* Polymorphe Methode  */
+  /* Polymorphic method */
 	public String getInfo() {
 		return super.getInfo() +  " ist Giftig: " + this.istGiftig;
-	}		
-	
+	}
+
 }

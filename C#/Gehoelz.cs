@@ -1,5 +1,4 @@
 using System;
-
 /*
  * autor:   Olaf Groh
  * date:    17/02/2016

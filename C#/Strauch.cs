@@ -1,5 +1,4 @@
 using System;
-
 /*
  * autor:   Olaf Groh
  * date:    17/02/2016
@@ -17,7 +16,6 @@ public class Strauch : Gehoelz{
 		this.istGiftig = istGiftig;
 	}
 
-
 	/* Get- und Set Methoden für alle Attribute der Klasse */
 	/* Get and set methods for all attrubutes of the class */
 	public bool getIstGiftig() {
@@ -27,7 +25,6 @@ public class Strauch : Gehoelz{
 	public void setIstGiftig(bool istGiftig) {
 		this.istGiftig = istGiftig;
 	}
-
 
 	/* Polymorphe Methode  */
 	/* Polymorphic method */

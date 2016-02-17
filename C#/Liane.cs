@@ -1,5 +1,4 @@
 using System;
-
 /*
  * autor:   Olaf Groh
  * date:    17/02/2016
@@ -15,11 +14,9 @@ public class Liane : Gehoelz{
 	public Liane(String art, int pflanzjahr, float preis) : base(art, pflanzjahr, preis) {
 	}
 
-
 	/* Keine zusätzlichen Get- und Set Methoden */
 	/* No additional get and set methodes */
 
 	/* Kein Überschreiben der Methoden getInfo() */
 	/* No overriding the methods getInfo() */
-
 }

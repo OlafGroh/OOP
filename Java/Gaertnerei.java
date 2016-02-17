@@ -1,50 +1,38 @@
-package ga1_aufgabe_2_2;
-
 import java.util.ArrayList;
-
-import ga1_aufgabe_2_1.Gehoelz;
-
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public class Gaertnerei {
 
-	/*
-	 * Datenstruktur um Gehoelze zu verwalten
-	 */
+  /* Attribute der abstrakten Basisklasse */
+	/* Attriubutes of the abstract base class */
 	private ArrayList<Gehoelz> pflanzen;
-	
-	/*
-	 * Konstruktor um die Variable pflanzen zu initialisieren
-	 */
+
+  /* Konstruktor:Alle Parameter in den Attributen der Klasse speichern */
+	/* Constructor:store all parameters in the attributes of the class */
 	public Gaertnerei() {
 		this.pflanzen = new ArrayList<Gehoelz>();
 	}
-	
-	/*
-	 * fügt der Datensruktur ein übergebenes Element hinzu
-	 */
+
 	public void einkaufen(Gehoelz g) {
 		this.pflanzen.add(g);
 	}
-	
-	/*
-	 * verkaufen einer Pflanze, wenn gefunden liefert es die Referenz zurück, sonst null
-	 */
+
 	public Gehoelz verkaufen(String art, int pflanzjahr) {
 		Gehoelz tmp  = null;
 		for(int count=0; count<this.pflanzen.size(); count++) {
 			tmp = this.pflanzen.get(count);
 			if( tmp.getArt() == art && tmp.getPflanzjahr() == pflanzjahr) {
-				this.pflanzen.remove(count);				
+				this.pflanzen.remove(count);
 				return tmp;
 			}
 		}
-		
+
 		return null;
 	}
-	
-	/*
-	 * eine Liste zurück gegben, die alle Gehölze enthät, die
-	 * günstiger sind wie der Übergabewert!
-	 */
+
 	public ArrayList<Gehoelz> getWoodByLimit(float preis) {
 		ArrayList<Gehoelz> liste = new ArrayList<Gehoelz>();
 		Gehoelz tmp  = null;

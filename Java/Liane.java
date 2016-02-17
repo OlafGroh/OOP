@@ -1,28 +1,22 @@
-package ga1_aufgabe_2_1;
-
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public class Liane extends Gehoelz{
 
-	/*
-	 * Konstruktor um alle Attribute zu initialisieren
-	 */	
+  /* Keine zusätzlichen Attrubute */
+	/* No additional attributes */
+
+	/* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+	/* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
 	public Liane(String art, int pflanzjahr, float preis) {
-		/*
-		 * Aufrufen den Konstruktors der Basisklasse, hier also von Gehoelz!!
-		 */
 		super(art, pflanzjahr, preis);
-		
-		/*
-		 * Da Liane keine zusätzlichen Attribute enthält muss hier auch nichts
-		 * weiter getan werden!
-		 */
 	}
 
-	
-	/*
-	 * keine Get- und Set Methoden, da keine zusätzlichen Attribute vorhanden sind!
-	 */
-	
-	/*
-	 * kein Überschreiben von getInfo, da die Ausgabe nicht erwitert werden muss!
-	 */
+  /* Keine zusätzlichen Get- und Set Methoden */
+	/* No additional get and set methodes */
+
+	/* Kein Überschreiben der Methoden getInfo() */
+	/* No overriding the methods getInfo() */
 }

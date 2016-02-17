@@ -1,17 +1,18 @@
-package ga1_aufgabe_2_1;
-
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public abstract class Gehoelz {
-	
-	/*
-	 * Attribute der abstrakten Basisklasse
-	 */
-	private String	art;
-	private int		pflanzjahr;
-	private float	preis;
 
-	/*
-	 * Konstruktor um alle Attribute zu initialisieren
-	 */
+  /* Attribute der abstrakten Basisklasse */
+	/* Attriubutes of the abstract base class */
+	private String   art;
+	private int      pflanzjahr;
+	private float    preis;
+
+  /* Konstruktor:Alle Parameter in den Attrubuten der Klasse speichern */
+	/* Constructor:store all parameters in the attributes of the class */
 	public Gehoelz(String art, int pflanzjahr, float preis) {
 		/*
 		 * Alle übergebene Parameter in die Attribute der Klasse speichern,
@@ -22,9 +23,8 @@ public abstract class Gehoelz {
 		this.preis		= preis;
 	}
 
-	/*
-	 * Get- und Set Methoden für alle Attribute der Klasse
-	 */
+  /* Get- und Set Methoden für alle Attribute der Klasse */
+	/* Get and set methods for all attrubutes of the class */
 	public String getArt() {
 		return art;
 	}
@@ -48,13 +48,9 @@ public abstract class Gehoelz {
 	public void setPreis(float preis) {
 		this.preis = preis;
 	}
-	
-	/*
-	 * Methode getInfo, diese muss von jeder (ausser Liane) überschriben werden,
-	 * wenn die Methode gleich lautet und die gleichen Parameter übernimmt und dennoch
-	 * in der ableitenden Klasse eine andere Funktionalität aufweist, dann ist das 
-	 * Polymorph!!
-	 */
+
+  /* Methode wird in allen Subklassen (ausser Liane) überschrieben */
+	/* Method are overwritten in all (not in Liane) sub classes */
 	public String getInfo() {
 		return "Art: " +this.art + " Pflanzjahr: " + this.pflanzjahr + " Preis: " + this.preis;
 	}
