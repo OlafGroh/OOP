@@ -47,6 +47,25 @@ public class Starter {
     for(int c=0; c<tmp.size(); c++) {
       System.out.println("[" + c + "] = " + (tmp.get(c)).getInfo() );
     }
+
+    /* die Methode erweiterungen der Klassen Baum und Strauch testen */
+    /* test of the extension of the classes Baum and Strauch */
+    System.out.println();
+    for(int c=0; c<tmp.size(); c++) {
+      Gehoelz objtmp = tmp.get(c);
+      if( objtmp instanceof Baum) {
+          Baum baum = (Baum)objtmp;
+          System.out.println("Instanz war vom Typ Baum: Art=" + baum.getArt() + " maximale Höhe=" + baum.getMaxHoehe() );
+      }else if( objtmp instanceof Liane) {
+        Liane liane = (Liane)objtmp;
+        System.out.println("Instanz war vom Typ Liane : Art=" + liane.getArt() );
+      }else if( objtmp instanceof Strauch) {
+        Strauch strauch = (Strauch)objtmp;
+        System.out.println("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + "ist Giftig=" + strauch.getIstGiftig() );
+      }
+    }
+
+
   }
 
 }
