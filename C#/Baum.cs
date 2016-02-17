@@ -7,14 +7,14 @@ public class Baum : Gehoelz{
 	private int maxHoehe;
 
 	/* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
-	/* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */		 
+	/* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
 	public Baum(String art, int pflanzjahr, float preis, int maxHoehe) : base(art, pflanzjahr, preis) {
 		this.maxHoehe = maxHoehe;
 	}
 
 
 	/* Get- und Set Methoden für alle Attribute der Klasse */
-	/* Get and set methodes for all attrubutes of the class */
+	/* Get and set methods for all attrubutes of the class */
 	public int getMaxHoehe() {
 		return maxHoehe;
 	}
@@ -22,11 +22,11 @@ public class Baum : Gehoelz{
 	public void setMaxHoehe(int maxHoehe) {
 		this.maxHoehe = maxHoehe;
 	}
-	
-	
+
+
 	/* Polymorphe Methode  */
 	/* Polymorphic method */
 	public String getInfo() {
 		return base.getInfo() + " Maxihoehe: " + this.maxHoehe;
-	}	
+	}
 }

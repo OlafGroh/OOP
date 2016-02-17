@@ -17,7 +17,7 @@ public abstract class Gehoelz {
 	}
 
 	/* Get- und Set Methoden für alle Attribute der Klasse */
-	/* Get and set methodes for all attrubutes of the class */
+	/* Get and set methods for all attrubutes of the class */
 	public String getArt() {
 		return art;
 	}
