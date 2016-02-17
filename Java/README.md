@@ -22,7 +22,9 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true
 [1] = Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15.0  
 [2] = Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true  
 
+Instanz war vom Typ Baum: Art=Pappel maximale Höhe=15  
+Instanz war vom Typ Liane : Art=Gemeiner Efeu  
+Instanz war vom Typ Strauch : Art=Stechapfelist Giftig=true  
 
 __Status/state__  
-nicht Komplett/incomplete  
-->sicheres Casten der Objekte fehlt / safe cast of objects not implemented  
+Komplett/complete  
