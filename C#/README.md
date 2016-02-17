@@ -1,4 +1,4 @@
-![Mono Logo](https://github.com/OlafGroh/OOP/blob/master/images/csharp_logo.png)
+![Mono Logo](https://github.com/OlafGroh/OOP/blob/master/images/logos/csharp_logo.png)
 
 
 __Betriebssystem/operating system__  

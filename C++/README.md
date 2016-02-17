@@ -1,4 +1,4 @@
-![GCC Logo](https://github.com/OlafGroh/OOP/blob/master/images/cpp_logo.png)
+![GCC Logo](https://github.com/OlafGroh/OOP/blob/master/images/logos/cpp_logo.png)
 
 
 __Betriebssystem/operating system__  
