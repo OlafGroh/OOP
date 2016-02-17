@@ -28,7 +28,7 @@ public class Strauch : Gehoelz{
 
   /* Polymorphe Methode */
   /* Polymorphic method */
-  public String getInfo() {
+  new public String getInfo() {
     return base.getInfo() + " ist Giftig: " + this.istGiftig;
   }
 }

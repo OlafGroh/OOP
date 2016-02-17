@@ -28,7 +28,7 @@ public class Baum : Gehoelz{
 
   /* Polymorphe Methode */
   /* Polymorphic method */
-  public String getInfo() {
+  new public String getInfo() {
     return base.getInfo() + " Maxihoehe: " + this.maxHoehe;
   }
 }
