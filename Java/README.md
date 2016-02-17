@@ -24,7 +24,7 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true
 
 Instanz war vom Typ Baum: Art=Pappel maximale Höhe=15  
 Instanz war vom Typ Liane : Art=Gemeiner Efeu  
-Instanz war vom Typ Strauch : Art=Stechapfelist Giftig=true  
+Instanz war vom Typ Strauch : Art=Stechapfel ist Giftig=true  
 
 __Status/state__  
 Komplett/complete  

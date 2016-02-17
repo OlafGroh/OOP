@@ -19,5 +19,5 @@ function main() {
 }
 
 /* Einstiegspunkt wie z.B in C/C++ und Java nachbilden */
-/* replicate entry point as e.g. in C / C ++ and Java */
+/* replicate entry point as e.g. in C/C ++ and Java */
 main();

@@ -48,7 +48,7 @@ public class Starter
         Console.WriteLine("[" + c + "] = " + tmp[c].getInfo() );
       }
 
-      /* die Methode erweiterungen der Klassen Baum und Strauch testen */
+      /* die Methodeerweiterungen der Klassen Baum und Strauch testen */
       /* test of the extension of the classes Baum and Strauch */
       Console.WriteLine();
       for(int c=0; c<tmp.Count; c++) {
@@ -61,7 +61,7 @@ public class Starter
           Console.WriteLine("Instanz war vom Typ Liane : Art=" + liane.getArt() );
         }else if( objtmp is Strauch) {
           Strauch strauch = (Strauch)objtmp;
-          Console.WriteLine("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + "ist Giftig=" + strauch.getIstGiftig() );
+          Console.WriteLine("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + " ist Giftig=" + strauch.getIstGiftig() );
         }
       }
 

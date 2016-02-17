@@ -5,15 +5,15 @@
  */
 function Gehoelz(art, pflanzjahr, preis) {
 
-	if (this.constructor === Gehoelz) {
+  if (this.constructor === Gehoelz) {
         throw new Error("Fehler abstract class!");
       }
 
   /* Attribute der abstrakten Basisklasse */
   /* Attributes of the abstract base class */
-  var art		= art;
-  var pflanzjahr	= pflanzjahr;
-  var preis		= preis;
+  var art         = art;
+  var pflanzjahr  = pflanzjahr;
+  var preis       = preis;
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
   /* Get and set methods for all attributes of the class */

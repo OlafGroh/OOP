@@ -6,10 +6,10 @@
 public abstract class Gehoelz {
 
   /* Attribute der abstrakten Basisklasse */
-	/* Attriubtes of the abstract base class */
-	private String   art;
-	private int      pflanzjahr;
-	private float    preis;
+  /* Attriubtes of the abstract base class */
+  private String  art;
+  private int     pflanzjahr;
+  private float   preis;
 
   /* Konstruktor:Alle Parameter in den Attributen der Klasse speichern */
   /* Constructor:store all parameters in the attributes of the class */
@@ -24,7 +24,7 @@ public abstract class Gehoelz {
   }
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
-  /* Get and set methods for all attrubutes of the class */
+  /* Get and set methods for all attributes of the class */
   public String getArt() {
     return art;
   }

@@ -12,7 +12,6 @@ dmcs *.cs -out:Start.exe
 __Starten/run__    
 mono Start.exe
 
-
 __Ausgabe/output__  
 Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxihoehe: 25  
 Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxihoehe: 15  
@@ -25,8 +24,7 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2,5 ist Giftig: True
 
 Instanz war vom Typ Baum: Art=Pappel maximale Höhe=15  
 Instanz war vom Typ Liane : Art=Gemeiner Efeu  
-Instanz war vom Typ Strauch : Art=Stechapfelist Giftig=TrueBaum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxihoehe: 25  
-
+Instanz war vom Typ Strauch : Art=Stechapfel ist Giftig=True
 
 __Status/state__  
 Komplett/complete  

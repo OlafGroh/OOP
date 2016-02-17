@@ -48,7 +48,7 @@ public class Starter {
       System.out.println("[" + c + "] = " + (tmp.get(c)).getInfo() );
     }
 
-    /* die Methode erweiterungen der Klassen Baum und Strauch testen */
+    /* die Methodenerweiterungen der Klassen Baum und Strauch testen */
     /* test of the extension of the classes Baum and Strauch */
     System.out.println();
     for(int c=0; c<tmp.size(); c++) {
@@ -61,7 +61,7 @@ public class Starter {
         System.out.println("Instanz war vom Typ Liane : Art=" + liane.getArt() );
       }else if( objtmp instanceof Strauch) {
         Strauch strauch = (Strauch)objtmp;
-        System.out.println("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + "ist Giftig=" + strauch.getIstGiftig() );
+        System.out.println("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + " ist Giftig=" + strauch.getIstGiftig() );
       }
     }
 
