@@ -1,5 +1,4 @@
-![GCC Logo](https://github.com/OlafGroh/OOP/blob/master/Java/images/logo.png)
-
+![Java Logo](https://github.com/OlafGroh/OOP/blob/master/Java/images/logo.png)
 
 __Betriebssystem/operating system__  
 Linux x86_64
