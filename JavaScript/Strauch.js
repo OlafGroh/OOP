@@ -10,13 +10,13 @@ function Strauch(art, pflanzjahr, preis, istGiftig) {
   Gehoelz.call(this, art, pflanzjahr, preis);
 
   /* Attribute der Klasse */
-  /* Attriubutes of the class */
+  /* Attributes of the class */
   var istGiftig		= istGiftig;
   var parentgetInfo = this.getInfo;
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
   /* Get and set methods for all attrubutes of the class */
-  this.isIstGiftig = function() {
+  this.getIstGiftig = function() {
     return maxHoehe;
   }
 

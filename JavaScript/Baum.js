@@ -9,11 +9,13 @@
 function Baum(art, pflanzjahr, preis, maxHoehe) {
   Gehoelz.call(this, art, pflanzjahr, preis);
 
+  /* Attribute der Klasse */
+  /* Attributes of the class */
   var maxHoehe		= maxHoehe;
   var parentgetInfo = this.getInfo;
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
-  /* Get and set methods for all attrubutes of the class */
+  /* Get and set methods for all attributes of the class */
   this.getMaxHoehe = function() {
     return maxHoehe;
   }

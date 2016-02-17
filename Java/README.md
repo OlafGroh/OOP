@@ -19,7 +19,7 @@ Liane: Art:  Gemeiner Efeu Pflanzjahr: 1990 Preis: 15.0
 Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true  
 
 [0] = Art: Pappel Pflanzjahr: 2010 Preis: 199.0 Maxihoehe: 15  
-[1] = Art:  Gemeiner Efeu Pflanzjahr: 1990 Preis: 15.0  
+[1] = Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15.0  
 [2] = Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: true  
 
 

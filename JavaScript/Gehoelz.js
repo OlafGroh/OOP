@@ -10,13 +10,13 @@ function Gehoelz(art, pflanzjahr, preis) {
       }
 
   /* Attribute der abstrakten Basisklasse */
-  /* Attriubutes of the abstract base class */
+  /* Attributes of the abstract base class */
   var art		= art;
   var pflanzjahr	= pflanzjahr;
   var preis		= preis;
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
-  /* Get and set methods for all attrubutes of the class */
+  /* Get and set methods for all attributes of the class */
   this.getArt = function() {
     return art;
   }

@@ -16,7 +16,7 @@ __Starten/run__
 __Ausgabe/output__  
 Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxhoehe: 25  
 Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxhoehe: 15  
-Liane: Art:  Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
+Liane: Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
 Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2.5 ist Giftig: 1  
 
 [0] = Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxhoehe: 15  

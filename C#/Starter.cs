@@ -13,7 +13,7 @@ public class Starter
       /* some testdata */
       Baum    b1 = new Baum("Eiche", 2012, 299, 25);
       Baum    b2 = new Baum("Pappel", 2010, 199, 15);
-      Liane   l1 = new Liane(" Gemeiner Efeu", 1990, 15);
+      Liane   l1 = new Liane("Gemeiner Efeu", 1990, 15);
       Strauch s1 = new Strauch("Stechapfel", 1999, 2.5f, true);
 
       Console.WriteLine("Baum: "    + b1.getInfo());

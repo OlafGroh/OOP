@@ -4,6 +4,7 @@
  * version: 1.0
  */
 function main() {
+
    /* einige Testdaten */
    /* some testdata */
    var b1 = new Baum("Eiche", 2012, 299, 25);
@@ -17,4 +18,6 @@ function main() {
    console.log("Strauch: ".concat(s1.getInfo()) );
 }
 
+/* Einstiegspunkt wie z.B in C/C++ und Java nachbilden */
+/* replicate entry point as e.g. in C / C ++ and Java */
 main();

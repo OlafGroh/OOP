@@ -7,8 +7,8 @@ function Liane(art, pflanzjahr, preis) {
   /* Keine zusätzlichen Attrubute */
   /* No additional attributes */
 
-  /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
-  /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
+  /* Konstruktorfunktion:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+  /* Constructorfunction:store all parameters in the attributes of the base class, call the constructor of the base class */
   Gehoelz.call(this, art, pflanzjahr, preis);
 
   /* Keine zusätzlichen Get- und Set Methoden */
@@ -16,5 +16,4 @@ function Liane(art, pflanzjahr, preis) {
 
   /* Kein Überschreiben der Methoden getInfo() */
   /* No overriding the methods getInfo() */
-
 }

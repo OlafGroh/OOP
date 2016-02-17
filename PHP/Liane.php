@@ -1,32 +1,27 @@
 <?php
 require_once('Gehoelz.php');
 
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 class Liane extends Gehoelz {
 
-	/*
-	 * Konstruktor um alle Attribute zu initialisieren
-	 * Konstruktor ab PHP 5.3.3
-	 */
-	public function __construct($art, $pflanzjahr, $preis) {
-		/*
-		 * Aufrufen den Konstruktors der Basisklasse, hier also von Gehoelz!!
-		 */
-		parent::__construct($art, $pflanzjahr, $preis);
-	
-		/*
-		 * Da Liane keine zusätzlichen Attribute enthält muss hier auch nichts
-		 * weiter getan werden!
-		 */
-	}
-	
-	/*
-	 * keine Get- und Set Methoden, da keine zusätzlichen Attribute vorhanden sind!
-	 */
-	
-	/*
-	 * kein Überschreiben von getInfo, da die Ausgabe nicht erwitert werden muss!
-	 */	
-	
+  /* Keine zusätzlichen Attrubute */
+  /* No additional attributes */
+
+  /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+  /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
+  public function __construct($art, $pflanzjahr, $preis) {
+    parent::__construct($art, $pflanzjahr, $preis);
+  }
+
+  /* Keine zusätzlichen Get- und Set Methoden */
+  /* No additional get and set methodes */
+
+  /* Kein Überschreiben der Methoden getInfo() */
+  /* No overriding the methods getInfo() */
 }
 
 ?>
