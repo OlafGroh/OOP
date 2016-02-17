@@ -4,9 +4,9 @@ public abstract class Gehoelz {
 
 	/* Attribute der abstrakten Basisklasse */
 	/* Attriubutes of the abstract base class */
-	private String		art;
-	private int				pflanzjahr;
-	private float			preis;
+	private String art;
+	private int    pflanzjahr;
+	private float  preis;
 
 	/* Konstruktor:Alle Parameter in den Attrubuten der Klasse speichern */
 	/* Constructor:store all parameters in the attributes of the class */
