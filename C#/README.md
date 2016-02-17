@@ -23,4 +23,4 @@ Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2,5 ist Giftig: True
 
 __Status/state__  
 nicht Komplett/incomplete
-# Klasse Gehoelz nicht implementiert und getestet/ not implemented and tested class Gehoelz  
+-Klasse Gehoelz nicht implementiert und getestet/ not implemented and tested class Gehoelz  
