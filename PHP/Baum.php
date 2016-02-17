@@ -34,6 +34,7 @@ class Baum extends Gehoelz {
   public function getInfo() {
     return parent::getInfo() .  " Maxihoehe: " . $this->maxHoehe;
   }
+
 }
 
 ?>

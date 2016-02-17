@@ -34,5 +34,6 @@ class Strauch extends Gehoelz {
   public function getInfo() {
     return parent::getInfo() .  " ist Giftig: " . $this->istGiftig;
   }
+  
 }
 ?>

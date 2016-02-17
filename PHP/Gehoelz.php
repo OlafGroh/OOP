@@ -50,6 +50,7 @@ abstract class Gehoelz {
   public function getInfo() {
     return "Art: " . $this->art . " Pflanzjahr: " . $this->pflanzjahr . " Preis: " . $this->preis;
   }
+
 }
 
 ?>
