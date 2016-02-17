@@ -9,7 +9,7 @@ __Version/version__
 Mono C# compiler version 3.2.8.0
 
 __Übersetzen/compile__  
-dmcs *.cs -o Start.exe
+dmcs *.cs -out:Start.exe
 
 __Starten/run__    
 mono Start.exe
