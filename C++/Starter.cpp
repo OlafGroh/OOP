@@ -50,5 +50,23 @@ int main() {
     for(int c=0; c<tmp.size(); c++) {
         cout << "[" << c << "] = " << tmp[c]->getInfo() << endl;
     }
+
+    /* die Methodenerweiterungen der Klassen Baum und Strauch testen */
+    /* test of the extension of the classes Baum and Strauch */
+    cout << endl;
+    for(int c=0; c<tmp.size(); c++) {
+      Gehoelz *objtmp = tmp[c];
+      Baum      *baum = dynamic_cast<Baum*>(objtmp);
+      Liane     *liane = dynamic_cast<Liane*>(objtmp);
+      Strauch   *strauch = dynamic_cast<Strauch*>(objtmp);
+      if( baum != 0) {
+        cout << "Instanz war vom Typ Baum: Art=" << baum->getArt() << " maximale Höhe=" << baum->getMaxHoehe() << endl;
+      }else if( liane != 0) {
+        cout << "Instanz war vom Typ Liane : Art=" << liane->getArt() << endl;
+      }else if( strauch != 0) {
+        cout << "Instanz war vom Typ Strauch : Art=" << strauch->getArt() << " ist Giftig=" << strauch->getIstGiftig() << endl;
+      }
+    }
+
     return 0;
 }
