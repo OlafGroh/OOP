@@ -1,21 +1,17 @@
 #include "Gehoelz.h"
 #ifndef LIANE_H_
 #define LIANE_H_
-
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 class Liane : public Gehoelz {
+    /* Keine zusätzlichen Attrubute */
+	/* No additional attributes */
 
 public:
-	/*
-	 * Konstruktor der Klasse
-	 */
 	Liane(std::string art, int pflanzjahr, float preis);
-
-	/*
-	 * getInfo Methode hier nicht mehr als rein virtuell deklariert!
-	 */
-	std::string getInfo();
-
-
 	void abstract();
 
 };

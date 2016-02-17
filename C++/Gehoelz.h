@@ -2,42 +2,31 @@
 #ifndef GEHOELZ_H_
 #define GEHOELZ_H_
 
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 class Gehoelz {
-	/*
-	 * Attribute der Klasse
-	 */
 private:
-	std::string	art;
+    /* Attribute der abstrakten Basisklasse */
+	/* Attriubutes of the abstract base class */
+    std::string	art;
 	int			pflanzjahr;
 	float		preis;
 
 
 public:
-	/*
-	 * Konstruktor der Klasse
-	 */
 	Gehoelz(std::string art, int pflanzjahr, float preis);
-
-	/*
-	 * Get- und Set Methoden für die Attribute
-	 */
 	std::string& getArt();
 	void setArt(const std::string& art);
 	int getPflanzjahr();
 	void setPflanzjahr(int pflanzjahr);
 	float getPreis();
 	void setPreis(float preis);
-
-	/*
-	 * virtuelle getInfo Methode
-	 */
 	virtual std::string getInfo();
-
-	/*
-	 * Ein Trick um eine abstrakte Klasse zu generieren OHNE getInfo()
-	 * als rein virtuelle Klasse zu definieren!
-	 * Die Implementierung MUSS erhalten beliben, da sonst nicht polymorph!!
-	 */
+    /* Spezieller Trick um die Klasse als abstrakt zu  deklarieren */
+    /* Spezial trick to become the class abstract */
 	virtual void abstract()=0;
 };
 #endif

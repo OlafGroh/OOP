@@ -1,14 +1,16 @@
 #include "Gaertnerei.h"
+    /*
+     * autor:   Olaf Groh
+     * date:    17/02/2016
+     * version: 1.0
+     */
+	Gaertnerei::Gaertnerei() {}
 
-	Gaertnerei::Gaertnerei() {
-
-	}
 	void Gaertnerei::einkaufen(Gehoelz *g) {
 		std::vector<Gehoelz*>::iterator it;
 		it = pflanzen.end();
 		it = pflanzen.insert ( it , g );
 	}
-
 
 	Gehoelz* Gaertnerei::verkaufen(std::string art, int pflanzjahr) {
 		Gehoelz *tmp  = 0;
@@ -23,7 +25,6 @@
 		return tmp;
 	}
 
-
 	std::vector<Gehoelz*> Gaertnerei::getWoodByLimit(float preis) {
 		std::vector<Gehoelz*> tmplist;
 		Gehoelz *tmp  = 0;
@@ -35,7 +36,3 @@
 				}
 		return tmplist;
 	}
-
-
-
-

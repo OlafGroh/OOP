@@ -1,5 +1,10 @@
 using System;
 
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public class Baum : Gehoelz{
 
 	/* Attribute der abstrakten Basisklasse */

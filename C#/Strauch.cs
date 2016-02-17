@@ -1,9 +1,14 @@
 using System;
 
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 public class Strauch : Gehoelz{
 
-	/* Attribute der abstrakten Basisklasse */
-	/* Attriubutes of the abstract base class */
+	/* Attribute der Klasse */
+	/* Attriubutes of the class */
 	private bool istGiftig;
 
 	/* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */

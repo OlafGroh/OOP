@@ -2,22 +2,23 @@
 #ifndef STRAUCH_H_
 #define STRAUCH_H_
 
+/*
+ * autor:   Olaf Groh
+ * date:    17/02/2016
+ * version: 1.0
+ */
 class Strauch : public Gehoelz {
 private:
+    /* Attribute der Klasse */
+    /* Attriubutes of the class */
 	bool istGiftig;
 
 public:
 
-	/*
-	 * Konstruktor der Klasse
-	 */
 	Strauch(std::string art, int pflanzjahr, float preis, bool istGiftig);
-
-	/*
-	 * getInfo Methode hier nicht mehr als rein virtuell deklariert!
-	 */
+    bool getIstGiftig();
+    void setIstGiftig(bool istGiftig);
 	std::string getInfo();
-
 	void abstract();
 };
 #endif

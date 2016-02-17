@@ -21,3 +21,6 @@ Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxihoehe: 15
 Liane: Art:  Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
 Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2,5 ist Giftig: True  
 
+__Status/state__  
+nicht Komplett/incomplete
+# Klasse Gehoelz nicht implementiert und getestet/ not implemented and tested class Gehoelz  
