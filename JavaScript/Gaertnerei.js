@@ -1,6 +1,6 @@
 /*
  * autor:   Olaf Groh
- * date:    17/02/2016
+ * date:    18/02/2016
  * version: 1.0
  */
 
