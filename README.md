@@ -1,33 +1,33 @@
 #Aufgabe/exercise  
-Implementiere in verschiedenen Programmiersprachen folgende Aufgabe  
-Implement in several programming languages the given exercise
+Implementiere in __verschiedenen Programmiersprachen__ folgende Aufgabe  
+Implement in __several programming languages__ the given exercise
 
 ##Teil 1/part one
-Implementiere das gegebene UML-Klassendiagramm mit allen Abhängigkeiten, Konstruktoren und Methoden  
-Implement the given UML class diagram with all dependencies, constructors and methods
+Implementiere das gegebene UML-Klassendiagramm mit allen __Abhängigkeiten__, __Konstruktoren__ und __Methoden__  
+Implement the given UML class diagram with all __dependencies__, __constructors__ and __methods__
 
 ![Java Logo](https://github.com/OlafGroh/OOP/blob/master/images/uml/uml.png)
 
 ##Teil 2/part two
-Implementiere eine weiter Klasse Gaertnerei, die folgende Eigenschaften aufweist:
-* Ein Attribut als Datenstruktur, das Elemente vom Typ Gehoelz aufnehmen kann
-* eine Methode einkaufen, die ein gegebens Element in die Datenstruktur einfügt
-* eine Methode verkaufen, die das erste Element das die Übergebene Werte für Art und Pflanzjahr enthält aus der Datenstruktur entfernt. Wenn kein Element gefunden wird, soll NULL zurückgegeben werden
-* eine Methode getWoodByLimit, die eine neue Datenstruktur zurück liefert, die nur die Elemente enthält deren Preis kleiner als der übergeben Preis ist
+Implementiere eine weiter Klasse __Gaertnerei__, die folgende Eigenschaften aufweist:
+* Ein __Attribut__ als Datenstruktur, das Elemente vom Typ __Gehoelz__ aufnehmen kann
+* eine Methode __einkaufen__, die ein gegebenes Element in die Datenstruktur __einfügt__
+* eine Methode __verkaufen__, die das erste Element das die Übergebene Werte für __Art__ und __Pflanzjahr__ enthält aus der Datenstruktur entfernt. Wenn kein Element gefunden wird, soll __NULL__ zurückgegeben werden
+* eine Methode __getWoodByLimit__, die eine __neue Datenstruktur__ zurück liefert, die nur die Elemente enthält deren __Preis__ __kleiner__ als der übergeben Preis ist
 
-Implement a further class Gaertnerei having the following characteristics:
-* An attribute as a data structure that can hold elements of type Gehoelz
-* einkaufen a method that inserts input element in the data structure
-* verkaufen a method that contains the first element of the given values for Art and Pflanzjahr removed from the data structure. If no item is found, NULL is to be returned
-* a method getWoodByLimit that provides a new data structure back that contains only the items whose Preis smaller as the given price
+Implement a further class __Gaertnerei__ having the following characteristics:
+* An __attribute__ as a data structure that can hold elements of type __Gehoelz__
+* __einkaufen__ a method that __insert__ given element in the data structure
+* __verkaufen__ a method that contains the first element of the given values for __Art__ and __Pflanzjahr__ removed from the data structure. If no item is found, __NULL__ is to be returned
+* a method __getWoodByLimit__ that provides a __new data structure__ back that contains only the items whose __Preis__ __smaller__ as the given price
 
 #Betriebssystem/operating system  
 Linux x86_64
 
 #Programmiersprachen/programing languages  
 
-*__C#__  
-*__C++__  
-*__Java__  
-*__JavaScript__  
-*__PHP__  
+* __C#__  
+* __C++__  
+* __Java__  
+* __JavaScript__  
+* __PHP__  
