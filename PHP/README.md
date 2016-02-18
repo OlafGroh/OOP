@@ -30,5 +30,5 @@ Instanz war vom Typ Strauch : Art=Stechapfel ist Giftig=1
 Komplett/complete  
 
 #Wichtig/*important*  
-Konstruktoren nach PHP >= 5.3.3 Notation
+Konstruktoren nach PHP >= 5.3.3 Notation  
 <i>Constructors are written in PHP >= 5.3.3 notation</i>  

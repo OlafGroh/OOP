@@ -1,19 +1,18 @@
 ![GCC Logo](https://github.com/OlafGroh/OOP/blob/master/images/logos/cpp_logo.png)
 
-
-__Betriebssystem/operating system__  
+#Betriebssystem/*operating system*  
 Linux x86_64
 
-__Version/version__  
+#Version/*version*   
 g++ 5.2.1 20151010
 
-__Übersetzen/compile__  
-g++ *.cpp -o out
+#Übersetzen/*compile*  
+g++ *.cpp -o Starter
 
-__Starten/run__  
-./out
+#Starten/*run*  
+./Starter
 
-__Ausgabe/output__  
+#Ausgabe/*output*  
 Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxhoehe: 25  
 Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxhoehe: 15  
 Liane: Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
@@ -27,5 +26,8 @@ Instanz war vom Typ Baum: Art=Pappel maximale Höhe=15
 Instanz war vom Typ Liane : Art=Gemeiner Efeu  
 Instanz war vom Typ Strauch : Art=Stechapfel ist Giftig=1  
 
-__Status/state__  
+#Status/*state*  
 Komplett/complete  
+
+#Wichtig/*important*  
+-/-

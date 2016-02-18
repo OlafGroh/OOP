@@ -1,18 +1,18 @@
 ![Mono Logo](https://github.com/OlafGroh/OOP/blob/master/images/logos/csharp_logo.png)
 
-__Betriebssystem/operating system__  
+#Betriebssystem/*operating system*  
 Linux x86_64
 
-__Version/version__  
+#Version/*version*   
 Mono C# compiler version 3.2.8.0
 
-__Übersetzen/compile__  
+#Übersetzen/*compile*  
 dmcs *.cs -out:Start.exe
 
-__Starten/run__    
+#Starten/*run*  
 mono Start.exe
 
-__Ausgabe/output__  
+#Ausgabe/*output*  
 Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxihoehe: 25  
 Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxihoehe: 15  
 Liane: Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
@@ -26,5 +26,8 @@ Instanz war vom Typ Baum: Art=Pappel maximale Höhe=15
 Instanz war vom Typ Liane : Art=Gemeiner Efeu  
 Instanz war vom Typ Strauch : Art=Stechapfel ist Giftig=True
 
-__Status/state__  
+#Status/*state*  
 Komplett/complete  
+
+#Wichtig/*important*  
+-/-
