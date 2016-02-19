@@ -6,7 +6,7 @@ using System;
  */
 public class Liane : Gehoelz{
 
-  /* Keine zusätzlichen Attrubute */
+  /* Keine zusätzlichen Attribute */
   /* No additional attributes */
 
   /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */

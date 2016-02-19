@@ -6,8 +6,8 @@ using System;
  */
 public class Baum : Gehoelz{
 
-  /* Attribute der abstrakten Basisklasse */
-  /* Attriubutes of the abstract base class */
+  /* Attribute der Klasse */
+  /* Attriubutes of the class */
   private int maxHoehe;
 
   /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
@@ -17,7 +17,7 @@ public class Baum : Gehoelz{
   }
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
-  /* Get and set methods for all attrubutes of the class */
+  /* Get and set methods for all attributes of the class */
   public int getMaxHoehe() {
     return maxHoehe;
   }
@@ -29,6 +29,6 @@ public class Baum : Gehoelz{
   /* Polymorphe Methode */
   /* Polymorphic method */
   new public String getInfo() {
-    return base.getInfo() + " Maxihoehe: " + this.maxHoehe;
+    return base.getInfo() + " maxHoehe: " + this.maxHoehe;
   }
 }

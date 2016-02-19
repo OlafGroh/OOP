@@ -11,9 +11,9 @@ class Gehoelz {
 private:
     /* Attribute der abstrakten Basisklasse */
     /* Attributes of the abstract base class */
-    std::string	art;
-    int			pflanzjahr;
-    float		preis;
+    std::string art;
+    int         pflanzjahr;
+    float       preis;
 
 
 public:

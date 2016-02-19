@@ -1,4 +1,3 @@
-#include <iostream>
 #include <sstream>
 #include "Gehoelz.h"
     /*
@@ -10,13 +9,13 @@
      /* Konstruktor:Alle Parameter in den Attributen der Klasse speichern */
      /* Constructor:store all parameters in the attributes of the class */
      Gehoelz::Gehoelz(std::string art, int pflanzjahr, float preis) {
-         this->art			= art;
-         this->pflanzjahr	= pflanzjahr;
-         this->preis			= preis;
+         this->art          = art;
+         this->pflanzjahr   = pflanzjahr;
+         this->preis        = preis;
      }
 
     /* Get- und Set Methoden für alle Attribute der Klasse */
-    /* Get and set methods for all attrubutes of the class */
+    /* Get and set methods for all attributes of the class */
     std::string& Gehoelz::getArt() {
         return art;
     }

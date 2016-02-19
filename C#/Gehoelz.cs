@@ -7,7 +7,7 @@ using System;
 public abstract class Gehoelz {
 
   /* Attribute der abstrakten Basisklasse */
-  /* Attriubutes of the abstract base class */
+  /* Attributes of the abstract base class */
   private String art;
   private int    pflanzjahr;
   private float  preis;
@@ -21,7 +21,7 @@ public abstract class Gehoelz {
   }
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
-  /* Get and set methods for all attrubutes of the class */
+  /* Get and set methods for all attributes of the class */
   public String getArt() {
     return art;
   }

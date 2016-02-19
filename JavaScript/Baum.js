@@ -4,14 +4,14 @@
  * version: 1.0
  */
 
- /* Konstruktorfunktion:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+ /* Konstruktorfunktion:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
  /* Constructorfunction:store all parameters in the attributes of the base class, call the constructor of the base class */
 function Baum(art, pflanzjahr, preis, maxHoehe) {
   Gehoelz.call(this, art, pflanzjahr, preis);
 
   /* Attribute der Klasse */
   /* Attributes of the class */
-  var maxHoehe		= maxHoehe;
+  var maxHoehe      = maxHoehe;
   var parentgetInfo = this.getInfo;
 
   /* Get- und Set Methoden für alle Attribute der Klasse */
@@ -27,6 +27,6 @@ function Baum(art, pflanzjahr, preis, maxHoehe) {
   /* Polymorphe Methode */
   /* Polymorphic method */
   this.getInfo = function() {
-    return parentgetInfo.call(this).concat(" Maxihoehe: ",  maxHoehe);
+    return parentgetInfo.call(this).concat(" maxHoehe: ",  maxHoehe);
   }
 }

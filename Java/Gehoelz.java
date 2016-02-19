@@ -6,7 +6,7 @@
 public abstract class Gehoelz {
 
   /* Attribute der abstrakten Basisklasse */
-  /* Attriubtes of the abstract base class */
+  /* Attributes of the abstract base class */
   private String  art;
   private int     pflanzjahr;
   private float   preis;

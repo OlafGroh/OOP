@@ -12,7 +12,7 @@ class Baum extends Gehoelz {
   /* Attributes of the class */
   private $maxHoehe;
 
-  /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+  /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
   /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
   public function __construct($art, $pflanzjahr, $preis, $maxHoehe) {
     parent::__construct($art, $pflanzjahr, $preis);
@@ -32,7 +32,7 @@ class Baum extends Gehoelz {
   /* Polymorphe Methode */
   /* Polymorphic method */
   public function getInfo() {
-    return parent::getInfo() .  " Maxihoehe: " . $this->maxHoehe;
+    return parent::getInfo() .  " maxHoehe: " . $this->maxHoehe;
   }
 
 }

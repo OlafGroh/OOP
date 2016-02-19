@@ -15,7 +15,7 @@
 	}
 
     /* Get- und Set Methoden für alle Attribute der Klasse */
-    /* Get and set methods for all attrubutes of the class */
+    /* Get and set methods for all attributes of the class */
     int Baum::getMaxHoehe() {
         return this->maxHoehe;
     }
@@ -28,7 +28,7 @@
     /* Polymorphic method */
     std::string Baum::getInfo() {
         std::ostringstream output;
-        output << Gehoelz::getInfo() << " Maxhoehe: " << this->maxHoehe;
+        output << Gehoelz::getInfo() << " maxHoehe: " << this->maxHoehe;
         return output.str();
     }
 

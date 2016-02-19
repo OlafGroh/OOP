@@ -18,14 +18,14 @@ class Gaertnerei {
     $this->pflanzen = array();
   }
 
-  /* Hinzufügen eines neuen Elementes zur ArrayList */
-  /* add a new element to the ArrayList */
+  /* Hinzufügen eines neuen Elementes zur Array */
+  /* add a new element to the Array */
   public function einkaufen($g) {
     $this->pflanzen[] = $g;
   }
 
-  /* Das Element mit geg. Art UND geg. Pflanzjahr wird aus der ArrayList entfernt */
-  /* The element with given Art AND given. Pflanzjahr is removed from the ArrayList */
+  /* Das Element mit geg. Art UND geg. Pflanzjahr wird aus der Array entfernt */
+  /* The element with given Art AND given. Pflanzjahr is removed from the Array */
   public function verkaufen($art, $pflanzjahr) {
     $tmp = NULL;
     for($count=0; $count<count($this->pflanzen); $count++) {
@@ -39,8 +39,8 @@ class Gaertnerei {
     return NULL;
   }
 
-  /* ArrayList mit allen Elementen erzeugen, deren Verkaufspreis kleiner wie der geg. ist */
-  /* ArrayList generate with all elements whose selling price is less as the given */
+  /* Array mit allen Elementen erzeugen, deren Verkaufspreis kleiner wie der geg. ist */
+  /* Array generate with all elements whose selling price is less as the given */
   public function getWoodByLimit($preis) {
     $liste = array();
     $tmp  = NULL;

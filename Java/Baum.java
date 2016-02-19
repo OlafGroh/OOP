@@ -9,7 +9,7 @@ public class Baum extends Gehoelz{
   /* Attributes of the class */
   private int maxHoehe;
 
-  /* Konstruktor:Alle Parameter in den Attrubuten der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
+  /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
   /* Constructor:store all parameters in the attributes of the base class, call the constructor of the base class */
   public Baum(String art, int pflanzjahr, float preis, int maxHoehe) {
     super(art, pflanzjahr, preis);
@@ -29,6 +29,6 @@ public class Baum extends Gehoelz{
   /* Polymorphe Methode */
   /* Polymorphic method */
   public String getInfo() {
-    return super.getInfo() +  " Maxihoehe: " + this.maxHoehe;
+    return super.getInfo() +  " maxHoehe: " + this.maxHoehe;
   }
 }

@@ -1,5 +1,3 @@
-//#include <iostream>
-//#include <sstream>
 #include "Liane.h"
 
     /* Konstruktor:Alle Parameter in den Attributen der Basisklasse speichern, Konstruktor der Basiklasse aufrufen */
