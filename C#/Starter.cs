@@ -64,6 +64,5 @@ public class Starter
           Console.WriteLine("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + " ist Giftig=" + strauch.getIstGiftig() );
         }
       }
-
     }
 }

@@ -64,8 +64,5 @@ public class Starter {
         System.out.println("Instanz war vom Typ Strauch : Art=" + strauch.getArt() + " ist Giftig=" + strauch.getIstGiftig() );
       }
     }
-
-
   }
-
 }

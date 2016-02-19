@@ -13,8 +13,8 @@ dmcs *.cs -out:Start.exe
 mono Start.exe
 
 #Ausgabe/*output*  
-Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 Maxihoehe: 25  
-Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 Maxihoehe: 15  
+Baum: Art: Eiche Pflanzjahr: 2012 Preis: 299 maxHoehe: 25  
+Baum: Art: Pappel Pflanzjahr: 2010 Preis: 199 maxHoehe: 15  
 Liane: Art: Gemeiner Efeu Pflanzjahr: 1990 Preis: 15  
 Strauch: Art: Stechapfel Pflanzjahr: 1999 Preis: 2,5 ist Giftig: True  
 

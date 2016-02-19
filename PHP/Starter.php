@@ -66,7 +66,6 @@ function main() {
       print "Instanz war vom Typ Strauch : Art=" . $strauch->getArt() . " ist Giftig=" . $strauch->getIstGiftig() . "\n";
     }
   }
-
 }
 
 /* Einstiegspunkt wie z.B in C/C++ und Java nachbilden */

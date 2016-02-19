@@ -67,6 +67,5 @@ int main() {
         cout << "Instanz war vom Typ Strauch : Art=" << strauch->getArt() << " ist Giftig=" << strauch->getIstGiftig() << endl;
       }
     }
-
     return 0;
 }
