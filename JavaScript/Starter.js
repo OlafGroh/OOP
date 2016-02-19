@@ -46,7 +46,7 @@ function main() {
    /* die Methodenerweiterungen der Klassen Baum und Strauch testen */
    /* test of the extension of the classes Baum and Strauch */
    console.log("");
-   for(var c=0; c<tmp.lengt; c++) {
+   for(var c=0; c<tmp.length; c++) {
      var objtmp = tmp[c];
      if( objtmp instanceof Baum) {
        var baum = objtmp;

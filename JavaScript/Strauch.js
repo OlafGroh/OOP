@@ -17,7 +17,7 @@ function Strauch(art, pflanzjahr, preis, istGiftig) {
   /* Get- und Set Methoden für alle Attribute der Klasse */
   /* Get and set methods for all attributes of the class */
   this.getIstGiftig = function() {
-    return maxHoehe;
+    return istGiftig;
   }
 
   this.setIstGiftig = function(istGiftig) {
