@@ -4,10 +4,30 @@
  * version: 1.0
  ]]
 require "Gehoelz"
-io.write('Hello World!\n')
-obj = Gehoelz:new("Baum", 2010, 199)
-io.write( obj:getArt() .. "\n" )
-io.write( obj:getInfo() .. "\n" )
+require "Liane"
+
+--obj = Gehoelz.new(Gehoelz,"Baum", 2010, 199)
+obj = Liane.new(Liane,"Baum", 2010, 199)
+
+
+io.write( obj.getArt() .. "\n" )
+--io.write( obj.getPflanzjahr() .. "\n" )
+--io.write( obj.getPreis() .. "\n" )
+
+
+--obj.setArt("RUDI")
+--obj.setPflanzjahr(2015)
+--obj.setPreis(999)
+
+--io.write( obj.getArt() .. "\n" )
+--io.write( obj.getPflanzjahr() .. "\n" )
+--io.write( obj.getPreis() .. "\n" )
+--io.write( obj:getInfo() .. "\n" )
+
+--io.write( obj.art .. "\n" )
+--io.write( obj.cart .. "\n" )
+--io.write( obj.pflanzjahr .. "\n" )
+--io.write( obj.preis .. "\n" )
 
 
 --[[
