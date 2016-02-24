@@ -5,50 +5,54 @@
  ]]
 
 Gehoelz = {}
-Gehoelz.__index = Gehoelz
-  --[[ Attribute der abstrakten Basisklasse ]]
-  --[[ Attributes of the abstract base class ]]
-  --Gehoelz.art = 0
-  --Gehoelz.pflanzjahr = 0
-  --Gehoelz.preis = 0
 
-  function Gehoelz:new(art, pflanzjahr, preis)
-    local self = setmetatable({}, Gehoelz)
-    self.art = art
-    self.pflanzjahr = pflanzjahr
-    self.preis = preis
-    return self
-    --return setmetatable( {art=art, pflanzjahr=pflanzjahr, preis=preis}, Gehoelz)
-  end
+  function Gehoelz.new(class, cart, cpflanzjahr, cpreis)
+
+
+    if class==Gehoelz then
+      error("Fehler abstract class!")
+    end
+
+    local self = {}
+
+    --[[ Attribute der abstrakten Basisklasse ]]
+    --[[ Attributes of the abstract base class ]]
+    local art = cart
+    local pflanzjahr = cpflanzjahr
+    local preis = cpreis
+
 
   --[[ Get- und Set Methoden für alle Attribute der Klasse ]]
   --[[ Get and set methods for all attributes of the class ]]
-  function Gehoelz:getArt()
-    return self.art
+  function self.getArt()
+    return art
   end
 
-  function Gehoelz:setArt(art)
-    self.art = art
+  function self.setArt(sart)
+    art = sart
   end
 
-  function Gehoelz:getPflanzjahr()
-    return self.pflanzjahr
+  function self.getPflanzjahr()
+    return pflanzjahr
   end
 
-  function Gehoelz:setPflanzjahr(pflanzjahr)
-    self.pflanzjahr = pflanzjahr
+  function self.setPflanzjahr(spflanzjahr)
+    pflanzjahr = spflanzjahr
   end
 
-  function Gehoelz:getPreis()
-    return self.preis
+  function self.getPreis()
+    return preis
   end
 
-  function Gehoelz:setPreis(preis)
-    self.preis = preis
+  function self.setPreis(spreis)
+    preis = spreis
   end
 
   --[[ Methode wird in allen Subklassen (ausser Liane) überschrieben ]]
   --[[ Method are overwritten in all (not in Liane) sub classes ]]
-  function Gehoelz:getInfo()
-    return "Art: " .. self.art .. " Pflanzjahr: " .. self.pflanzjahr .. " Preis: " .. self.preis;
+  function self.getInfo()
+    return "Art: " .. art .. " Pflanzjahr: " .. pflanzjahr .. " Preis: " .. preis;
   end
+
+  return self
+end
