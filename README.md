@@ -4,7 +4,9 @@ Implementiere in __verschiedenen Programmiersprachen__ folgende Aufgabe
 
 ##Teil 1/*part one*
 Implementiere das gegebene UML-Klassendiagramm mit allen __Abhängigkeiten__, __Konstruktoren__ und __Methoden__  
-<i>Implement the given UML class diagram with all __dependencies__, __constructors__ and __methods__</i>
+Die Methode getInfo() soll die Werte der Attribute als Zeichenkette zurück liefern
+<i>Implement the given UML class diagram with all __dependencies__, __constructors__ and __methods__  
+The method getInfo () is intended to provide the attribute values as a string</i>
 
 ![Java Logo](https://github.com/OlafGroh/OOP/blob/master/images/uml/uml.png)
 
